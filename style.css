@@ -9,7 +9,7 @@ body{
     min-height: 100vh;
     background-image: url(images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: auto 50%;
+    background-size: 100%;
     background-color: #E0E8FF;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,10 @@ span{
     cursor: pointer;
 }
 
+.button-change:hover{
+    color: #2514DE; 
+}
+
 .button-change:active{
     color: #766CF1;
 }
@@ -114,7 +118,7 @@ span{
 }
 
 .button-pay:hover{
-    background-color: #3829F9;
+    background-color: #2F1FE0;
 }
 
 .button-pay:active{
@@ -130,6 +134,10 @@ span{
     font-weight: 700;
     background-color: white;
     margin-top: 4px;
+}
+
+.button-cancel:hover{
+    color: #6274a6;
 }
 
 .button-cancel:active{
